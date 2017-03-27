@@ -6,7 +6,3 @@
 /build
 /captures
 .externalNativeBuild
-.idea
-.gitignore
-gradlew
-gradle.properties
