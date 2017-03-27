@@ -39,8 +39,8 @@ file(GLOB_RECURSE LIBZXING_FILES
 find_package(OpenCV)
 if(OpenCV_FOUND)
     file(GLOB_RECURSE LIBZXING_OPENCV_FILES
-        ".src/main/cpp/opencv/src/*.cpp"
-        ".src/main/cpp/opencv/src/*.h"
+        "./src/main/cpp/opencv/src/*.cpp"
+        "./src/main/cpp/opencv/src/*.h"
     )
     set(LIBZXING_FILES ${LIBZXING_FILES} ${LIBZXING_OPENCV_FILES})
     include_directories(${OpenCV_INCLUDE_DIRS})

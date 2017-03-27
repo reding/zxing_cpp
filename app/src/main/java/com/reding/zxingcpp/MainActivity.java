@@ -13,8 +13,10 @@ public class MainActivity extends AppCompatActivity {
 
         // Example of a call to a native method
         TextView tv = (TextView) findViewById(R.id.sample_text);
-        tv.setText("hello world");
+        tv.setText(stringFromJNI());
     }
+
+    native String stringFromJNI();
 
     // Used to load the 'native-lib' library on application startup.
     static {

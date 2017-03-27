@@ -38,6 +38,8 @@
 #include <zxing/multi/MultipleBarcodeReader.h>
 #include <zxing/multi/GenericMultipleBarcodeReader.h>
 
+#include <jni.h>
+
 using namespace std;
 using namespace zxing;
 using namespace zxing::multi;
